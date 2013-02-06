@@ -192,7 +192,7 @@ ul.menu li a {
   font-size: 14px;
   font-weight: 200;
   border-bottom: none;
-  font-style: bold;
+  font-weight: bold;
 }
 
 ul.menu li a:hover, ul.menu li.active a {
