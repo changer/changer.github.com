@@ -20,8 +20,7 @@ h1, h2, h3, h4{
 }
 
 a{
-  font-weight: 200;
-  border-bottom: 1px dashed #00ade4;
+  font-weight: 400;
   color: #00ade4;
   font-size: 16px;
 }
@@ -47,6 +46,10 @@ h3 {
   font-style: normal;
   color: #555;
   font-size: 36px;
+  font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
+  color: #000000;
+  font-weight: 600;
+  font-size: 24px;
 }
 
 h2 {
@@ -67,16 +70,42 @@ li {
   text-align: center;
 }
 
-.content-wrap{
-  padding-top: 20px;
-  border-top: 1px solid #ffffff;
-  min-height: 100%;
-}
-
 .logo, .logo:hover{
   display: block;
   border: none;
   margin-top: 10px;
+}
+
+.button-appstore{
+  display: block;
+  text-align: center;
+  padding: 10px;
+  padding-top: 6px;
+  border-radius: 5px;
+  line-height: 14px;
+  margin-top: 20px;
+}
+
+.button-appstore small{
+  font-size: 10px;
+}
+
+.button-appstore-apple{
+  background: #ffffff url("../img/products/appstore-apple-icon.png")no-repeat 15px center;
+    padding-left: 30px;
+    width: 100px;
+}
+
+.button-appstore-google{
+  background: #ffffff url("../img/products/appstore-google-icon.png")no-repeat 15px center;
+  margin-left: 10px;
+  padding-left: 40px;
+  width: 110px;
+}
+
+.button-appstore:hover{
+  border-bottom: none;
+  cursor: pointer;
 }
 
 /*
@@ -125,15 +154,26 @@ li {
   margin-top: 10px;
 }
 
-.product-description{
-  margin-top: 20px;
-  margin-bottom: 20px;
+.row-index-products{
+  padding-top: 50px;
 }
 
-.product-description h4{
-  font-family: "Open Sans", "Helvetica", Arial, sans-serif;
-  color: #555;
-  font-weight: 200;
+.index-product-inner{
+  padding-left: 50px;
+}
+
+.index-product-inner img{
+  height: 133px;
+}
+
+.product-description{
+  text-align: center;
+}
+
+.product-description h3{
+  font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
+  color: #000000;
+  font-weight: 600;
   font-size: 24px;
 }
 
@@ -141,17 +181,11 @@ li {
   margin-top: 20px;
 }
 
-.project-list{
-  list-style: none;
-  margin-left: 0;
-  font-family: "Open Sans", "Helvetica", Arial, sans-serif;
-  color: #555;
-  font-weight: 200;
-  font-size: 24px;
-}
-
-.project-list li{
-  margin-top: 20px;
+.index-portfolio-link{
+  font-size: 36px;
+  display: inline-block;
+  margin-top: 100px;
+  line-height: 40px;
 }
 
 .logo-small, .logo-small:hover{
@@ -345,7 +379,7 @@ section.about, section.products, section.contact {
 }
 
 
-.project-tagline, .product-tagline{
+.project-tagline {
   display: block;
   line-height: 30px;
   font-size: 24px;
@@ -378,15 +412,30 @@ section.about, section.products, section.contact {
   Products page
 ================================================
 */
-.products {
+.products-container {
+  margin-top: 50px;
 }
 
 .products h3{
   color: #555;
 }
 
-.product-row{
-  margin-top: 50px;
+.products-product-row{
+  margin-top: 70px;
+}
+
+.products-product-row h4{
+  font-size: 36px;
+  color: #000000;
+}
+
+.products-product-row p{
+  margin-top: 20px;
+}
+
+.product-tagline {
+  color: #555;
+  font-size: 18px;
 }
 
 .product-logo, .project-logo{
@@ -395,10 +444,6 @@ section.about, section.products, section.contact {
 
 .features{
   margin-bottom: 10px;
-}
-
-.product-screen {
-  margin-top: 50px;
 }
 
 /*.browsered .inner {
