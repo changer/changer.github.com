@@ -350,10 +350,12 @@ section.about, section.products, section.contact {
 .row-teammember img{
   width: 140px;
   height: 140px;
+  -webkit-filter: sepia(50%);
 }
 
 .row-teammember .span2, .row-teammember .span4 {
   margin-top: 40px;
+  min-height: 140px;
 }
 
 .about h3{
