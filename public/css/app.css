@@ -509,6 +509,33 @@ body {
   margin: 15px 10px;
 }
 
+.icon-social {
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+  margin-left: 10px;
+}
+
+.icon-social:hover{
+  opacity: 1.0;
+  border-bottom: none;
+}
+
+.icon-facebook {
+  background: url("../img/footer/icon-facebook.png");
+}
+
+.icon-twitter {
+  background: url("../img/footer/icon-twitter.png");
+}
+
+.icon-linkedin {
+  background: url("../img/footer/icon-linkedin.png");
+}
+
+.icon-youtube {
+  background: url("../img/footer/icon-youtube.png");
+}
 
 /*
 ================================================
