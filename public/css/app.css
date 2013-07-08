@@ -562,9 +562,9 @@ body {
   padding-top: 10px;
 }
 
-#job-details {
-  padding-top: 20px;
-  padding-bottom: 20px;
+.row-job-details {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
