@@ -225,7 +225,8 @@ ul.menu li a {
   font-size: 14px;
   font-weight: 200;
   border-bottom: none;
-  font-weight: bold;
+  font-weight: normal;
+  color: #8bdeff;
 }
 
 ul.menu li a:hover, ul.menu li.active a {
@@ -239,22 +240,6 @@ ul.menu li:hover, header ul.menu li.active {
 
 ul.menu li a:hover {
   text-decoration: none;
-}
-
-.blue a{
-  color: #00ade4;
-}
-
-.darkblue, .darkblue a{
-  color: #1d6193;
-}
-
-.green, .green a{
-  color: #72b52b;
-}
-
-.brown a{
-  color: #8e7e70;
 }
 
 /*
