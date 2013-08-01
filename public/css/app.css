@@ -553,10 +553,9 @@ body {
 }
 
 .alert-wrap .btn:after {
-  content: ' more';
-}
-
-.alert-wrap .btn.collapsed:after {
   content: ' less';
 }
 
+.alert-wrap .btn.collapsed:after {
+  content: ' more';
+}
