@@ -15,21 +15,21 @@ body {
   line-height: 23px;
 }
 
-h1, h2, h3, h4{
+h1, h2, h3, h4 {
   font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
 }
 
-a{
+a {
   font-weight: 400;
   color: #00ade4;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
   border-bottom: 1px dashed #1d6193;
 }
 
-hr{
+hr {
   border-top: 1px dashed #ffffff;
   border-bottom: none;
 }
@@ -69,13 +69,13 @@ li {
   text-align: center;
 }
 
-.logo, .logo:hover{
+.logo, .logo:hover {
   display: block;
   border: none;
   margin-top: 10px;
 }
 
-.button-appstore{
+.button-appstore {
   display: block;
   text-align: center;
   padding: 10px;
@@ -85,24 +85,24 @@ li {
   margin-top: 20px;
 }
 
-.button-appstore small{
+.button-appstore small {
   font-size: 10px;
 }
 
-.button-appstore-apple{
+.button-appstore-apple {
   background: #ffffff url("../img/products/appstore-apple-icon.png")no-repeat 15px center;
     padding-left: 30px;
     width: 100px;
 }
 
-.button-appstore-google{
+.button-appstore-google {
   background: #ffffff url("../img/products/appstore-google-icon.png")no-repeat 15px center;
   margin-left: 10px;
   padding-left: 40px;
   width: 100px;
 }
 
-.button-appstore:hover{
+.button-appstore:hover {
   border-bottom: none;
   cursor: pointer;
 }
@@ -113,12 +113,12 @@ li {
 ================================================
 */
 
-.front .tagline{
+.front .tagline {
   text-align: left;
   padding: 20px 0px;
 }
 
-.tagline h1{
+.tagline h1 {
   font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
   font-size: 80px;
   color: #ffffff;
@@ -126,7 +126,7 @@ li {
   line-height: 70px;
 }
 
-.tagline h1 small{
+.tagline h1 small {
   font-weight: 400;
   color: #caf1fa;
   margin-bottom: 10px;
@@ -134,7 +134,7 @@ li {
   line-height: 50px;
 }
 
-.description{
+.description {
   font-size: 16px;
   line-height: 28px;
   text-align: left;
@@ -153,45 +153,45 @@ li {
   margin-top: 10px;
 }
 
-.row-index-products{
+.row-index-products {
   padding-top: 50px;
 }
 
-.index-product-inner{
+.index-product-inner {
   padding-left: 50px;
 }
 
-.index-product-inner img{
+.index-product-inner img {
   height: 133px;
 }
 
-.product-description{
+.product-description {
   text-align: center;
 }
 
-.product-description h3{
+.product-description h3 {
   font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
   color: #000000;
   font-weight: 600;
   font-size: 24px;
 }
 
-.product-logo{
+.product-logo {
   margin-top: 20px;
 }
 
-.index-portfolio-link{
+.index-portfolio-link {
   font-size: 36px;
   display: inline-block;
   margin-top: 100px;
   line-height: 40px;
 }
 
-.logo-small, .logo-small:hover{
+.logo-small, .logo-small:hover {
   border-bottom: none;
 }
 
-.portfolio-link, .portfolio-link a{
+.portfolio-link, .portfolio-link a {
   font-size: 24px;
   font-weight: 100;
 }
@@ -201,7 +201,7 @@ li {
   Header
 ================================================
 */
-.header-wrap{
+.header-wrap {
   background: black;
   width:100%;
   min-width: 960px;
@@ -264,12 +264,12 @@ ul.menu li a:hover {
   /*box-shadow: 0 0px 1px #333;*/
 }
 
-.hero-wrap a{
+.hero-wrap a {
   color: #caf1fa;
   border-bottom: 1px dashed #caf1fa;
 }
 
-.hero-wrap h2{
+.hero-wrap h2 {
   margin-bottom: 30px;
 }
 
@@ -319,19 +319,19 @@ ul.submenu li a:hover {
 section.about, section.products, section.contact {
 }
 
-.about hr{
+.about hr {
   border-bottom: 1px dashed #00ade4;
 }
 
-.about-header{
+.about-header {
   margin-top: 40px;
 }
 
-.row-teammember h4{
+.row-teammember h4 {
   margin: 0;
 }
 
-.row-teammember img{
+.row-teammember img {
   width: 140px;
   height: 140px;
   -webkit-filter: sepia(0.2);
@@ -342,10 +342,10 @@ section.about, section.products, section.contact {
   min-height: 140px;
 }
 
-.about h3{
+.about h3 {
 }
 
-.project-row{
+.project-row {
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -360,19 +360,19 @@ section.about, section.products, section.contact {
   margin-bottom: 20px;
 }
 
-.project-date{
+.project-date {
   display: block;
   font-size: 12px;
   font-weight: 200;
   color: #555;
 }
 
-#jipio{
+#jipio {
   font-size: 72px;
   line-height: 72px;
 }
 
-.pageheader{
+.pageheader {
   font-size: 44px;
   color: #ffffff;
 }
@@ -389,20 +389,20 @@ section.about, section.products, section.contact {
   margin-top: 50px;
 }
 
-.products h3{
+.products h3 {
   color: #555;
 }
 
-.products-product-row{
+.products-product-row {
   margin-top: 70px;
 }
 
-.products-product-row h4{
+.products-product-row h4 {
   font-size: 36px;
   color: #000000;
 }
 
-.products-product-row p{
+.products-product-row p {
   margin-top: 20px;
 }
 
@@ -411,11 +411,11 @@ section.about, section.products, section.contact {
   font-size: 18px;
 }
 
-.product-logo, .project-logo{
+.product-logo, .project-logo {
   margin-bottom: 36px;
 }
 
-.features{
+.features {
   margin-bottom: 10px;
 }
 
@@ -437,22 +437,22 @@ section.about, section.products, section.contact {
 ================================================
 */
 
-.contact{}
+.contact {}
 
-.contact h3{
+.contact h3 {
   font-weight: 100;
 }
 
-.row-contact{
+.row-contact {
   margin-top: 50px;
 }
 
-.address{
+.address {
   list-style: none;
   margin-left: 0;
 }
 
-.address .address-header{
+.address .address-header {
   font-size: 24px;
   font-weight: 100;
   color: #00ade4;
@@ -501,7 +501,7 @@ body {
   margin-left: 10px;
 }
 
-.icon-social:hover{
+.icon-social:hover {
   opacity: 1.0;
   border-bottom: none;
 }
@@ -528,7 +528,7 @@ body {
 ================================================
 */
 
-.legal{
+.legal {
   list-style: none;
 }
 
@@ -538,7 +538,7 @@ body {
 ================================================
 */
 
-.job-wrap {
+.alert-wrap {
   background: white;
   border-top: 1px solid rgb(134, 134, 134);
   border-bottom: 1px solid rgb(223, 223, 223);
@@ -547,40 +547,16 @@ body {
   padding-top: 10px;
 }
 
-.row-job-details {
+.alert-wrap .row {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
+.alert-wrap .btn:after {
+  content: ' more';
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.alert-wrap .btn.collapsed:after {
+  content: ' less';
+}
 
