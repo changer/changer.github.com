@@ -391,6 +391,9 @@ section.about, section.products, section.contact {
 
 .products h3 {
   color: #555;
+  background-color: #FFF;
+  padding: 20px;
+  border-bottom: 4px solid #00ADE4;
 }
 
 .products-product-row {
