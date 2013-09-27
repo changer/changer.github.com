@@ -562,3 +562,32 @@ body {
 .alert-wrap .btn.collapsed:after {
   content: ' more';
 }
+
+/*
+================================================
+  Surveyapp include
+================================================
+*/
+
+.surveyapp-wrap {
+  background: #79BA36;
+  border-top: 1px solid #85C743;
+  padding-bottom: 20px;
+  padding-top: 30px;
+}
+
+.surveyapp-introduction {
+  color: #9FDB60;
+}
+
+#surveyapp-banner-img {
+  margin-bottom: -20px;
+}
+
+.surveyapp-banner-header {
+  margin-top: 20px;
+}
+
+.surveyapp-banner-header a:hover{
+  border-bottom: 1px solid #258325;
+}
