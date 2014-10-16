@@ -591,3 +591,14 @@ body {
 .surveyapp-banner-header a:hover{
   border-bottom: 1px solid #258325;
 }
+
+/*
+================================================
+  Veiligwerkbeter include
+================================================
+*/
+
+.veiligwerktbeter {
+  background-color: #FBD311;
+  text-align: center;
+}
