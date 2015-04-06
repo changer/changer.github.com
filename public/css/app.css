@@ -155,6 +155,7 @@ li {
 
 .row-index-products {
   padding-top: 50px;
+  text-align: justify;
 }
 
 .index-product-inner {
@@ -183,7 +184,7 @@ li {
 .index-portfolio-link {
   font-size: 36px;
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 50px;
   line-height: 40px;
 }
 
